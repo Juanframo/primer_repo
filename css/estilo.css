@@ -337,7 +337,7 @@ main .sectionPromo {
   .mainviimg__sectione {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 18% 18% 31% 31%;
+    grid-template-rows: 12% 12% 38% 38%;
     grid-template-areas: "image"
  "image"
  "card"
