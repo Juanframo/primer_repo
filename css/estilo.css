@@ -141,7 +141,11 @@ label {
   height: 1800px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 20% 20% 20% 20% 20%;
-  grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10";
+  grid-template-areas: "foto1 foto2"
+ "foto3 foto4"
+ "foto5 foto6"
+ "foto7 foto8"
+ "foto9 foto10";
   max-width: 100%;
   max-height: 100%;
   gap: 10px 10px; }
@@ -175,7 +179,10 @@ main .sectionPromo {
   height: 1200px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 25% 25% 25% 25%;
-  grid-template-areas: "image1 image2 " "image3 image4 " "image5 image6 "  "image7 image8 ";
+  grid-template-areas: "image1 image2 "
+ "image3 image4 "
+ "image5 image6 " 
+ "image7 image8 ";
   max-width: 100%;
   max-height: 100%;
   gap: 10px; }
@@ -208,13 +215,14 @@ main .sectionPromo {
 
 .mainviimg {
   width: 100%;
-  height: 995px; }
+  height: 1100px; }
 
 .mainviimg__sectione {
   display: grid;
   grid-template-columns: 49% 49%;
-  grid-template-rows: 50% 50%;
-  grid-template-areas: "image image" "card card";
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "image image"
+ "card card";
   max-width: 100%;
   max-height: 100%; }
 
@@ -329,8 +337,11 @@ main .sectionPromo {
   .mainviimg__sectione {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 23% 23%;
-    grid-template-areas: "image" "image" "card" "card";
+    grid-template-rows: 18% 18% 31% 31%;
+    grid-template-areas: "image"
+ "image"
+ "card"
+ "card";
     max-width: 100%;
     max-height: 100%; }
   .card {
@@ -420,7 +431,8 @@ main .sectionPromo {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 50%;
-    grid-template-areas: "articulo" "imagen";
+    grid-template-areas: "articulo"
+ "imagen";
     gap: 20px;
     align-items: center; }
   .sectionCo .divi {
@@ -436,7 +448,16 @@ main .sectionPromo {
     height: 100%;
     grid-template-columns: 100%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-areas: "foto1"  "foto2" "foto3"  "foto4" "foto5"  "foto6" "foto7"  "foto8" "foto9"  "foto10";
+    grid-template-areas: "foto1" 
+ "foto2"
+ "foto3" 
+ "foto4"
+ "foto5" 
+ "foto6"
+ "foto7" 
+ "foto8"
+ "foto9" 
+ "foto10";
     margin-top: 50px; }
   .menuUnoSection img {
     width: 40%;
@@ -452,7 +473,14 @@ main .sectionPromo {
     height: 1500px;
     grid-template-columns: 100%;
     grid-template-rows: 11% 11% 11% 11% 11% 11% 11% 11%;
-    grid-template-areas: "image1"  "image2 " "image3"  "image4 " "image5"  "image6 "  "image7"  "image8 "; }
+    grid-template-areas: "image1" 
+ "image2 "
+ "image3" 
+ "image4 "
+ "image5" 
+ "image6 " 
+ "image7" 
+ "image8 "; }
   .sectionPromo div {
     margin-top: 20px; }
   .sectionPromo img {
